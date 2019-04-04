@@ -1,5 +1,18 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+console.log("hello");//Test to make sure page works
+
+function hogwarts() {
+  const headmaster = "Dumbledore";
+  console.log(`Our Headmaster is ${headmaster}`);
+  function gryffindor(){
+    const member = "Harry Potter";
+    console.log(`${headmaster} gave 10 points to ${member} of gryffindor`);
+  }
+  gryffindor();
+}
+hogwarts();
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
